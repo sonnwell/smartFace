@@ -1,0 +1,50 @@
+.input-block {
+  box-shadow: 0 0 9px #707070;
+  border-radius: 7px;
+  min-width: 75%;
+  padding: 35px 20px;
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(
+      #1d1d1d 25%,
+      #1a1a1a 25%,
+      #1a1a1a 50%,
+      transparent 50%,
+      transparent 75%,
+      #242424 75%,
+      #242424
+    );
+  background-color: #131313;
+  background-size: 20px 20px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+    width: 100%;
+  border: none;
+}
+
+.detect-btn {
+  color: #fff !important;
+  font-weight: bold;
+  background-color: #00b8cd !important;
+  margin-left: 10px;
+  border: none;
+  padding: 3px 30px;
+  transition-duration: 300ms;
+}
+
+.detect-btn:hover {
+  background-color: #00d3ea !important;
+  color: #e1e1e1;
+  box-shadow: 0 0 5px #fff;
+  transition-duration: 300ms;
+}
